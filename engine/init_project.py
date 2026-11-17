@@ -69,6 +69,7 @@ def init_project(name, title=None, base_dir=".", format_type="shorts"):
     aspect_ratio = "9:16" if is_shorts else "16:9"
     resolution = "1080x1920" if is_shorts else "1920x1080"
     target_shots = 6 if is_shorts else 18
+    target_duration = 40 if is_shorts else 180
 
     # Project config template
     config = {
@@ -79,6 +80,7 @@ def init_project(name, title=None, base_dir=".", format_type="shorts"):
         "channel_handle": "@DreamByte-y3h",
         "format": "YouTube Shorts" if is_shorts else "YouTube Landscape",
         "target_shots": target_shots,
+        "target_duration_sec": target_duration,
         "aspect_ratio": aspect_ratio,
         "resolution": resolution,
         "fps": 30,
@@ -94,6 +96,7 @@ def init_project(name, title=None, base_dir=".", format_type="shorts"):
 
     # Storyboard & Script template
     storyboard_template = f"""# 🎬 {config['title']} — Script & Storyboard
+**Target Duration:** ~{target_duration}s ({target_shots} Shots × ~6-7s) | **Aspect Ratio:** {aspect_ratio}
 
 ## 🎭 Characters & Setting
 - **Main Character:** 
@@ -104,13 +107,39 @@ def init_project(name, title=None, base_dir=".", format_type="shorts"):
 ---
 
 ## 📋 Micro-Chunk Breakdown
-*(Strict Rule: 100% Genuine Video Motion for every shot. No static images.)*
+*(Mandatory Laws: 100% Genuine Video Motion | Snappy Fast-Paced Action | Zero Static Slideshows)*
 
-### Shot 01:
+### Shot 01: [VIRAL COLD OPEN HOOK — First 0-3 Seconds]
+- **Hook Purpose:** Intense curiosity / shocking visual to ensure >75% "Stayed to Watch"
+- **Visual Prompt (Fast 3D Motion):** 
+- **Hindi Script (Spoken Voiceover):** 
+- **Target Duration:** ~6.5s
+
+### Shot 02: [Inciting Incident / Discovery]
 - **Visual Prompt:** 
 - **Hindi Script:** 
-- **Target Duration:** ~6s
+- **Target Duration:** ~6.5s
 
+### Shot 03: [Rising Action / Magical Event]
+- **Visual Prompt:** 
+- **Hindi Script:** 
+- **Target Duration:** ~6.5s
+
+### Shot 04: [Turning Point / Greed or Conflict]
+- **Visual Prompt:** 
+- **Hindi Script:** 
+- **Target Duration:** ~6.5s
+
+### Shot 05: [Climax / Crucial Consequence]
+- **Visual Prompt:** 
+- **Hindi Script:** 
+- **Target Duration:** ~6.5s
+
+### Shot 06: [CLIMAX + ENDING ENGAGEMENT QUESTION]
+- **Engagement Purpose:** Pose a viewer dilemma/question in final 3-5s to trigger hundreds of comments
+- **Visual Prompt:** 
+- **Hindi Script:** 
+- **Target Duration:** ~6.5s
 """
     sb_path = project_dir / "01_script_and_storyboard.md"
     if not sb_path.exists():

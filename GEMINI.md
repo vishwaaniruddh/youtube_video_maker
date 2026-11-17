@@ -23,10 +23,16 @@ All AI video generation tasks in this repository MUST strictly follow the codifi
    - Strip all bracketed emotion tags from speech scripts unless using v3 alpha tag parsing. Master file: `audio/master_voiceover.mp3`.
 6. **Rule #4: Standardized YouTube Upload Kit:**
    - Every completed project must generate the 5 standard writeups in `<project_name>/youtube_writeups/` using `python engine/generate_youtube_kit.py --project-dir <project_name>`.
+7. **Rule #7: 0–3s Starting Viral Hook (High Retention Lock):**
+   - The first 3 seconds of video and voiceover MUST deliver an intense curiosity hook, unexpected action, or high-stakes visual to keep "Stayed to Watch" >75%.
+8. **Rule #8: Ending Engagement Question (Comment Driver):**
+   - The final 3–5 seconds MUST ask viewers a moral choice, dilemma, or question (e.g., "क्या आपने ऐसा दोस्त देखा है? कमेंट में बताओ!").
+9. **Rule #9: Optimal Shorts Duration (35–45s Target):**
+   - YouTube Shorts must stay strictly within 35–45 seconds (5–6 shots × ~7s each) to guarantee >90% Average Percentage Viewed (APV) and trigger algorithm recommendation loops.
 
 ### When the User Provides a New Video Topic:
 1. Initialize the project: `python engine/init_project.py --name <slug> --title <title>`
-2. Create `01_script_and_storyboard.md` with scene breakdown & prompts.
+2. Create `01_script_and_storyboard.md` (35–45s target, with 0–3s hook and ending engagement question).
 3. Lock Master Character Image in `sample_images/shot_master_character.png` & generate scene stills.
 4. Produce master voiceover in `audio/master_voiceover.mp3` via ElevenLabs.
 5. Generate 100% genuine AI motion clips in `generated_clips/` via Google Gemini / Veo / Meta AI.

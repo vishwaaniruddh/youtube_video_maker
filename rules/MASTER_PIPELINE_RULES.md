@@ -105,6 +105,33 @@ F:\YouTube\
 
 ---
 
+### 🔴 RULE #7: 0–3s STARTING VIRAL HOOK (HIGH RETENTION LOCK)
+* **Problem:** In YouTube Shorts, >40% swipe away in the first 2 seconds if the hook is slow or generic. Reach dies instantly.
+* **The Law:**
+  1. First 0–3 seconds of video & voiceover MUST start with high-stakes action, shocking visual, or intriguing curiosity hook.
+  2. Never start with slow establishing shots (e.g. "एक गांव था..."). Start in medias res: "इस जादुई मुर्गी का पेट चीरने से पहले किसान ने क्या देखा?! 😱".
+  3. Maintain "Stayed to Watch" >75% to trigger YouTube's algorithmic discovery pool.
+
+---
+
+### 🔴 RULE #8: ENDING ENGAGEMENT QUESTION (COMMENT & ALGORITHM DRIVER)
+* **Problem:** 0 comments and 0 shares keep videos stuck at ~1.4K views even with decent retention.
+* **The Law:**
+  1. The final 3–5 seconds MUST pose an engaging moral dilemma, viewer debate, or choice.
+  2. Example: "अगर आपके पास ये मुर्गी होती, तो आप क्या करते? लालच या समझदारी? नीचे कमेंट में बताओ! 👇".
+  3. Drive viewer interaction to boost the video from Phase 1 (1.4K) to Phase 2 (10K–100K+).
+
+---
+
+### 🔴 RULE #9: OPTIMAL SHORTS DURATION (35–45s TARGET) & FAST MOTION
+* **Problem:** 80-second shorts suffer retention drop-offs (<65% APV). YouTube algorithm strongly rewards >90–100% APV.
+* **The Law:**
+  1. Standard target duration for all YouTube Shorts is strictly **35–45 seconds** (5–6 shots × ~6–7s each).
+  2. **Dynamic Fast Motion:** Prompt AI video models for fast-paced 3D animation, snappy character movements, and energetic camera pushes. Avoid slow cinematic drifts.
+  3. Apply 1.15x–1.25x speed multiplier during final FFmpeg assembly to keep the pacing brisk, engaging, and tight.
+
+---
+
 ## 🚀 NEW PROJECT WORKFLOW (WHEN USER GIVES A NEW TOPIC)
 
 When the user gives a new topic (e.g., *"Make a video on Haunted Old Haveli"*):
