@@ -1,0 +1,17 @@
+{
+  "project_name": "08_sher_aur_chatur_khargosh",
+  "project_title": "शेर और चतुर खरगोश",
+  "english_title": "The Lion and the Clever Rabbit",
+  "category": "Panchatantra Moral Stories",
+  "format": "YouTube Shorts (9:16)",
+  "resolution": "1080x1920",
+  "fps": 30,
+  "target_duration_seconds": 80.0,
+  "total_shots": 10,
+  "flow_project_url": "https://flow.google.com/u/6/project/d1ff8a4e-f6c8-437b-95d6-7dc24b1bc9cd",
+  "master_character_image": "sample_images/shot_master_character.png",
+  "audio_voiceover_file": "audio/master_voiceover.mp3",
+  "status": "completed",
+  "final_movie_file": "final_output/08_sher_aur_chatur_khargosh_Shorts_1080x1920.mp4",
+  "actual_duration_seconds": 78.0
+}

@@ -1,0 +1,19 @@
+{
+    "project_name": "09_jadui_chakki",
+    "title": "जादुई चक्की जो सोना उगलती थी",
+    "created_at": "2026-11-17",
+    "channel": "Dream Byte",
+    "channel_handle": "@DreamByte-y3h",
+    "format": "YouTube Shorts (9:16)",
+    "target_shots": 10,
+    "aspect_ratio": "9:16",
+    "resolution": "1080x1920",
+    "fps": 30,
+    "target_duration_seconds": 78.0,
+    "category": "Magical Hindi Fairy Tales",
+    "character_consistency_reference": "sample_images/shot_master_character.png",
+    "audio_voiceover_file": "audio/master_voiceover.mp3",
+    "status": "completed",
+    "video_engine": "Google Flow (Omni 1.2 Flash)",
+    "consistency_protocol": "Rule #0 Locked (100% genuine independent motion)"
+}

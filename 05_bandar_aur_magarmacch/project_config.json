@@ -1,0 +1,22 @@
+{
+    "project_name": "05_bandar_aur_magarmacch",
+    "title": "बंदर और मगरमच्छ",
+    "english_title": "The Clever Monkey and the Crocodile | 3D Pixar Animation Hindi Shorts",
+    "channel": "Dream Byte",
+    "channel_handle": "@DreamByte-y3h",
+    "format": "YouTube Shorts",
+    "aspect_ratio": "9:16",
+    "resolution": "1080x1920",
+    "fps": 30,
+    "target_shots": 6,
+    "target_duration_seconds": 38.61,
+    "character_consistency_reference": "sample_images/shot_master_character.png",
+    "shot_durations": [
+        6.4,
+        6.4,
+        6.4,
+        6.4,
+        6.4,
+        6.61
+    ]
+}

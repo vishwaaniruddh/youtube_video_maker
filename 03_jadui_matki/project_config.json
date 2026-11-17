@@ -1,0 +1,22 @@
+{
+    "project_name": "03_jadui_matki",
+    "title": "कभी ना खाली होने वाली मटकी",
+    "english_title": "The Infinite Magic Pot | 3D Pixar Animation Hindi Shorts",
+    "channel": "Dream Byte",
+    "channel_handle": "@DreamByte-y3h",
+    "format": "YouTube Shorts",
+    "aspect_ratio": "9:16",
+    "resolution": "1080x1920",
+    "fps": 30,
+    "target_shots": 6,
+    "target_duration_seconds": 43.81,
+    "character_consistency_reference": "sample_images/shot_master_character.png",
+    "shot_durations": [
+        7.3,
+        7.3,
+        7.3,
+        7.3,
+        7.3,
+        7.31
+    ]
+}

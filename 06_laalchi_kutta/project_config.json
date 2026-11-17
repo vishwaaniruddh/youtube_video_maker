@@ -1,0 +1,22 @@
+{
+    "project_name": "06_laalchi_kutta",
+    "title": "लालची कुत्ता",
+    "english_title": "The Greedy Dog | 3D Pixar Animation Hindi Moral Stories",
+    "channel": "Dream Byte",
+    "channel_handle": "@DreamByte-y3h",
+    "format": "YouTube Shorts",
+    "aspect_ratio": "9:16",
+    "resolution": "1080x1920",
+    "fps": 30,
+    "target_shots": 6,
+    "target_duration_seconds": 36.0,
+    "character_consistency_reference": "sample_images/shot_master_character.png",
+    "shot_durations": [
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0
+    ]
+}

@@ -1,0 +1,17 @@
+================================================================================
+YOUTUBE STUDIO SETTINGS, CARDS & END SCREEN GUIDE
+Channel: Dream Byte (@DreamByte-y3h)
+================================================================================
+
+1. BASIC METADATA SETTINGS:
+• Category: Film & Animation
+• Video Language: Hindi
+• License: Standard YouTube License
+• Shorts Remixing: Allow video and audio remixing
+
+2. AUDIENCE SETTINGS (COPPA):
+👉 Select: "No, it's not made for kids"
+   (Keeps comments active, enables end screens & notification bell)
+
+3. END SCREEN:
+• Add last 15 seconds: Best for Viewer + Subscribe button

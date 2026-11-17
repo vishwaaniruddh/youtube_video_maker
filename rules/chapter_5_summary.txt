@@ -1,0 +1,38 @@
+================================================================================
+CHAPTER 5 SUMMARY: VIDEO ASSEMBLY & TIMELINE EDITING
+Course: Cartoon Video Bundle System (HuslersWay)
+Source Video: rules/CHAPTER 5.mp4 (Duration: 10:09)
+================================================================================
+
+1. OVERVIEW
+-----------
+Chapter 5 covers the final assembly process: importing the ElevenLabs audio and 
+Meta AI motion video clips into an editor, synchronizing visual cuts to narrative 
+dialogue beats, adjusting playback speed, and watermarking.
+
+2. EDITING SUITES SUPPORTED
+---------------------------
+- VN Video Editor (demonstrated in video; free across mobile & desktop)
+- CapCut (Desktop / Web / Mobile)
+- KineMaster
+
+3. STEP-BY-STEP ASSEMBLY RULES
+------------------------------
+1. Audio First: Lay down the ElevenLabs master narration track on the timeline first.
+2. Sequence Clips: Add animated scene clips (Media 1 to Media N) on the video track.
+3. Precise Dialogue Cuts:
+   - Match scene transitions exactly to spoken narrative phrases 
+     (e.g., transition to panic scene when narrator says "Achanak pure gaon mein...").
+4. Speed Adjustment: Slow down short motion clips (0.3x - 0.5x speed) so the visual 
+   lasts the full duration of its spoken narration beat.
+5. Branding Watermark: Add channel logo in the bottom-right corner spanning 
+   the entire video duration.
+6. Audio Balancing: Keep narration dominant (100%), background music subtle (10-15%).
+7. Export: 1080p, 30fps/60fps MP4.
+
+4. CONNECTION TO NEXT CHAPTER
+-----------------------------
+The video is complete. Chapter 6 focuses on thumbnail generation in Gemini, 
+SEO metadata packaging with ChatGPT, and publishing to YouTube.
+================================================================================
+

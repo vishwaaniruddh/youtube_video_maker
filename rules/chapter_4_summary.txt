@@ -1,0 +1,33 @@
+================================================================================
+CHAPTER 4 SUMMARY: EXPRESSIVE VOICEOVER WITH ELEVENLABS TONE VARIATIONS
+Course: Cartoon Video Bundle System (HuslersWay)
+Source Video: rules/chapter 4.mp4 (Duration: 02:47)
+================================================================================
+
+1. OVERVIEW
+-----------
+Chapter 4 covers converting the Hindi story script into dynamic, emotionally 
+expressive voiceover audio using ElevenLabs and bracketed tone cues.
+
+2. CORE WORKFLOW STEPS
+----------------------
+- Prompt Formatting in ChatGPT:
+    "{GIVE ME ONLY SCRIPT FOR ELEVEN LABS WITH TONE VARIATIONS}"
+- Output Tags: ChatGPT annotates the text with emotional directions:
+    [Calm, Warm Tone]
+    [Surprised, Fast Tone]
+    [Confused Tone]
+    [Confident, Heroic Tone]
+    [Curious Investigative Tone]
+- Platform: ElevenLabs (elevenlabs.io) -> Text to Speech.
+- Voice Choice: "Harsh - Resonant, Serious and Dramatic" (or suitable Indian voice).
+- Model: Select "Eleven v3 (alpha)" - explicitly supports interpreting and performing 
+  bracketed emotion cues without reading them aloud.
+- Download: Generate and save the final master narration audio (MP3).
+
+3. CONNECTION TO NEXT CHAPTER
+-----------------------------
+Now all media assets exist: motion video clips + voice narration. 
+Chapter 5 demonstrates assembling, timing, and editing the complete cartoon in CapCut.
+================================================================================
+

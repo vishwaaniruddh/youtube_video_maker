@@ -1,0 +1,33 @@
+================================================================================
+CHAPTER 3 SUMMARY: ANIMATING PHOTOS INTO REAL MOTION VIDEO WITH META AI
+Course: Cartoon Video Bundle System (HuslersWay)
+Source Video: rules/chapter 3.mp4 (Duration: 02:31)
+================================================================================
+
+1. OVERVIEW
+-----------
+Chapter 3 explains how to turn still 16:9 images into fluid moving animation clips 
+for free using Meta AI's image-to-video capabilities.
+
+2. CORE WORKFLOW STEPS
+----------------------
+- Tool: Meta AI (meta.ai).
+- Upload: Click the "+" attachment button and select the scene's Gemini image.
+- Command: Select or enter:
+    "Create a video from my photo"
+- Result: Meta AI adds realistic cartoon animation (character movements, eye blinks, 
+  wind in trees, water ripples).
+- Download: Save the generated MP4 clip to your system.
+- Repeat: Perform this step for each scene in the storyboard.
+
+3. KEY ADVANTAGE
+----------------
+This converts flat 2D cartoon drawings into living animated clips without expensive 
+3D animation software or manual keyframing, completely free.
+
+4. CONNECTION TO NEXT CHAPTER
+-----------------------------
+Now that all motion clips are collected, Chapter 4 focuses on generating voiceover 
+narration with emotion and tone variations in ElevenLabs.
+================================================================================
+

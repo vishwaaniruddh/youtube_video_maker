@@ -1,0 +1,22 @@
+{
+    "project_name": "02_bina_pedal_wali_jadui_cycle",
+    "title": "बिना पैडल वाली जादुई साइकिल",
+    "english_title": "The Ghost Bicycle Mystery | Funny 3D Hindi Cartoon Shorts",
+    "channel": "Dream Byte",
+    "channel_handle": "@DreamByte-y3h",
+    "format": "YouTube Shorts",
+    "aspect_ratio": "9:16",
+    "resolution": "1080x1920",
+    "fps": 30,
+    "target_shots": 6,
+    "target_duration_seconds": 32,
+    "character_consistency_reference": "sample_images/shot_master_character.png",
+    "shot_durations": [
+        5.0,
+        5.0,
+        5.0,
+        5.5,
+        5.5,
+        6.0
+    ]
+}

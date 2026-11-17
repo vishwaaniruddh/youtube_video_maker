@@ -1,0 +1,28 @@
+# Large video files (exceeds GitHub 100MB limit and heavy storage)
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+env/
+venv/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+.idea/
+.vscode/
+
+# Temp files
+*.tmp
+*.log
+temp/

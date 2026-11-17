@@ -1,0 +1,32 @@
+{
+    "project_name": "01_funny_village_mystery",
+    "title": "गाँव का रहस्यमयी जलेबी चोर",
+    "english_title": "The Mystery of the Midnight Jalebi Thief",
+    "channel": "Dream Byte",
+    "channel_handle": "@DreamByte-y3h",
+    "target_shots": 18,
+    "aspect_ratio": "16:9",
+    "resolution": "1920x1080",
+    "fps": 30,
+    "character_consistency_reference": "sample_images/shot_08.png",
+    "shot_durations": [
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        6.0,
+        7.0,
+        7.0,
+        4.0,
+        8.0,
+        7.0,
+        7.0,
+        3.0,
+        6.0,
+        7.0,
+        6.0,
+        6.0,
+        6.0,
+        9.83
+    ]
+}

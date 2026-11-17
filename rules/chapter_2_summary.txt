@@ -1,0 +1,28 @@
+================================================================================
+CHAPTER 2 SUMMARY: CARTOON VISUAL GENERATION WITH GOOGLE GEMINI
+Course: Cartoon Video Bundle System (HuslersWay)
+Source Video: rules/chapter 2.mp4 (Duration: 02:43)
+================================================================================
+
+1. OVERVIEW
+-----------
+Chapter 2 covers generating static 16:9 cartoon background/character images 
+from the ChatGPT scene prompts created in Chapter 1 using Google Gemini.
+
+2. CORE WORKFLOW STEPS
+----------------------
+- Source: Copy the "IMAGE PROMPT" section from each scene script.
+- Tool: Navigate to Google Gemini (gemini.google.com).
+- Formatting Rule: Always prepend the prompt with the exact aspect ratio directive:
+    CREATE A 16:9 IMAGE - "[PASTE IMAGE PROMPT HERE]"
+- Generation: Google Gemini generates colorful, vibrant 16:9 cartoon visuals.
+- Organization: Download and save each generated image in order (Scene 1 to Scene N).
+- Alternative: ChatGPT (DALL-E 3) or other free image generation tools can be used 
+  with the identical prompt string.
+
+3. CONNECTION TO NEXT CHAPTER
+-----------------------------
+Static images are now complete. Chapter 3 introduces Meta AI to animate these 
+static photos into real moving video clips.
+================================================================================
+

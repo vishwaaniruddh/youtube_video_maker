@@ -1,0 +1,44 @@
+================================================================================
+CHAPTER 1 SUMMARY: SCRIPT & STORY PROMPT GENERATION
+Course: Cartoon Video Bundle System (HuslersWay)
+Source Video: rules/chapter 1.mp4 (Duration: 02:10)
+================================================================================
+
+1. OVERVIEW
+-----------
+Chapter 1 covers the initial stage of creating cartoon story videos: generating 
+the complete narrative script and pairing each scene with a dedicated AI image prompt.
+
+2. CORE WORKFLOW RULES
+----------------------
+- Single Narrator: The script is written for a single voiceover narrator, 
+  avoiding complex multi-character voice setups.
+- Scene-by-Scene Layout: The video is divided into discrete scenes (Scene 1, 2, 3...).
+- 1 Image Per Scene: Each scene corresponds to exactly one background image.
+- Dual Output Structure: Each scene must output:
+    a) IMAGE PROMPT: Detailed prompt in English (style, characters, lighting, environment).
+    b) SCENE SCRIPT: Exact Hindi/English spoken narration lines.
+- Duration: 3 minutes is recommended as the viral sweet spot, but can be scaled 
+  to 5, 8, or 10 minutes.
+
+3. THE MASTER CHATGPT PROMPT
+-----------------------------
+"i am going to create a cartoon story video in hindi which only have 1 narrator so 
+create a script for my 3 min story video. write scripts in scene because i am going 
+to use 1 photo for each scene. no i mean first give me a prompt to generate the scene 
+photo and just after that give the scene script"
+
+4. SAMPLE DEMOSTRATED SCENE
+---------------------------
+Story: "Gumshuda Topi Ka Mamla"
+
+Scene 1: Ek Chota Sa Gaon Tha
+IMAGE PROMPT: "Cartoon-style small Indian village in soft morning light, mud houses, kids playing, trees around, peaceful setting, bright cheerful colors."
+SCENE SCRIPT: "एक छोटा सा गाँव था, बड़ा शांत और प्यारा। हर सुबह बच्चे खेलते, बड़े लोग काम में लग जाते। आज भी सब वैसा ही था... बस एक चीज अलग थी: आज किसी की टोपी गायब होने वाली थी।"
+
+5. CONNECTION TO NEXT CHAPTER
+-----------------------------
+Chapter 1 outputs the structured text. Chapter 2 uses these image prompts to 
+generate the actual visual assets via AI image generation tools.
+================================================================================
+

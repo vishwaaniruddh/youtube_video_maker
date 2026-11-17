@@ -1,0 +1,65 @@
+================================================================================
+YOUTUBE STUDIO SETTINGS, CARDS & END SCREEN GUIDE
+Channel: Dream Byte (@DreamByte-y3h)
+Video: गाँव का रहस्यमयी जलेबी चोर (Duration: 01:51)
+================================================================================
+
+1. BASIC METADATA SETTINGS:
+--------------------------------------------------------------------------------
+• Category: Film & Animation (फ़िल्म और ऐनिमेशन)
+• Video Language: Hindi (हिंदी)
+• Caption Certification: None
+• Recording Date: [Today's Date]
+• Video Location: Rampur (optional)
+• License: Standard YouTube License (मानक YouTube लाइसेंस)
+• Allow Embedding: Checked (Yes)
+• Publish to subscriptions feed and notify subscribers: Checked (Yes)
+• Shorts Remixing: Allow video and audio remixing (increases reach)
+
+
+2. AUDIENCE SETTINGS ("MADE FOR KIDS" / COPPA):
+--------------------------------------------------------------------------------
+Recommended Setting:
+👉 Select: "No, it's not made for kids" (नहीं, यह बच्चों के लिए नहीं बनाया गया है)
+   Age restriction: "No, don't restrict my video to viewers over 18"
+
+Why this is recommended:
+- Keeps the Comments section active (vital for algorithmic engagement).
+- Enables End Screens, Cards, and notification bell for subscribers.
+- While family-friendly and animated, choosing general audience gives 3x better monetization & algorithmic distribution.
+
+
+3. END SCREEN CONFIGURATION (अंतिम स्क्रीन):
+--------------------------------------------------------------------------------
+Timeline Window: 01:36 to 01:51 (Last 15 seconds)
+Elements to Add:
+1. Subscribe Button:
+   - Channel: Dream Byte
+   - Position: Center or Top Left
+2. Video Element:
+   - Type: "Best for viewer" (दर्शक के लिए सबसे अच्छा)
+   - Position: Top Right
+3. Playlist Element:
+   - Playlist: "Funny Hindi Cartoons" or "Detective Chintu Mysteries"
+   - Position: Bottom Right
+
+
+4. INFO CARDS (आई-कार्ड):
+--------------------------------------------------------------------------------
+Card 1 (At 00:46 - Detective Chintu Entry):
+- Type: Playlist or Video
+- Teaser Text: "और मजेदार जासूसी कार्टून देखें!"
+- Custom Message: "Detective Chintu Series"
+
+Card 2 (At 01:30 - Monkey Caught):
+- Type: Channel or Video
+- Teaser Text: "Dream Byte को सब्सक्राइब करें!"
+
+
+5. PLAYLIST RECOMMENDATIONS:
+--------------------------------------------------------------------------------
+Create or add to the following playlists on Dream Byte:
+1. "Detective Chintu Hindi Cartoons" (जासूस चीकू की कहानियाँ)
+2. "Funny Village Mysteries 3D" (गाँव की मजेदार पहेलियाँ)
+3. "Hindi Moral Stories & Bedtime Tales" (शिक्षाप्रद हिंदी कहानियाँ)
+

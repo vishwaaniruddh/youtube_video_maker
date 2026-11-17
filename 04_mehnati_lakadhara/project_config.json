@@ -1,0 +1,22 @@
+{
+    "project_name": "04_mehnati_lakadhara",
+    "title": "मेहनती लकड़हारा और उसकी कुल्हाड़ी",
+    "english_title": "The Honest Woodcutter and the Golden Axe | 3D Pixar Animation Hindi Shorts",
+    "channel": "Dream Byte",
+    "channel_handle": "@DreamByte-y3h",
+    "format": "YouTube Shorts",
+    "aspect_ratio": "9:16",
+    "resolution": "1080x1920",
+    "fps": 30,
+    "target_shots": 6,
+    "target_duration_seconds": 38.48,
+    "character_consistency_reference": "sample_images/shot_master_character.png",
+    "shot_durations": [
+        6.4,
+        6.4,
+        6.4,
+        6.4,
+        6.4,
+        6.48
+    ]
+}
