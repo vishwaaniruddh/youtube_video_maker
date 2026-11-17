@@ -1,9 +1,21 @@
-# Large video files (exceeds GitHub 100MB limit and heavy storage)
+# Video & Media output folders (Never commit generated video folders)
+**/generated_clips/
+**/generated_clips_backup*/
+**/final_output/
+**/videos/
+**/video/
+**/raw_videos/
+**/clips/
+
+# Video file formats
 *.mp4
 *.mkv
 *.mov
 *.avi
 *.webm
+*.flv
+*.wmv
+*.m4v
 
 # Python cache & virtual environments
 __pycache__/
@@ -22,7 +34,8 @@ Thumbs.db
 .idea/
 .vscode/
 
-# Temp files
+# Temp files & scratch
 *.tmp
 *.log
 temp/
+scratch/
