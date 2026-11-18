@@ -75,12 +75,13 @@ def verify_clips(clips_dir, expected_count=None):
     
     return valid_clips
 
-def assemble_project(project_dir, output_name=None):
+def assemble_project(project_dir, output_name=None, speed=1.25):
     project_path = Path(project_dir).resolve()
     print(f"\n========================================================")
     print(f"🚀 RUNNING UNIVERSAL MOVIE ASSEMBLY ENGINE")
     print(f"   Project: {project_path.name}")
     print(f"   Location: {project_path}")
+    print(f"   Pacing Speed Multiplier: {speed:.2f}X")
     print(f"========================================================\n")
 
     clips_dir = project_path / "generated_clips"
@@ -185,6 +186,7 @@ def assemble_project(project_dir, output_name=None):
     final_video = output_dir / output_name
     print(f"\n🎬 Stitching full movie and muxing clean master voiceover...")
 
+    raw_stitched = temp_dir / "raw_stitched.mp4" if speed != 1.0 else final_video
     mux_cmd = [
         ffmpeg_exe, "-y",
         "-f", "concat", "-safe", "0", "-i", str(concat_list_file),
@@ -193,9 +195,25 @@ def assemble_project(project_dir, output_name=None):
         "-c:a", "aac", "-b:a", "192k", "-ar", "44100", "-ac", "2",
         "-t", f"{total_audio_duration:.3f}",
         "-movflags", "+faststart",
-        str(final_video)
+        str(raw_stitched)
     ]
     subprocess.run(mux_cmd, capture_output=True, check=True)
+
+    # 5b. Apply 1.25X Speed Multiplier if requested
+    if speed != 1.0:
+        print(f"⚡ Applying {speed:.2f}X Pacing Multiplier (Rule #11)...")
+        speed_cmd = [
+            ffmpeg_exe, "-y",
+            "-i", str(raw_stitched),
+            "-filter:v", f"setpts=PTS/{speed}",
+            "-filter:a", f"atempo={speed}",
+            "-c:v", "libx264", "-c:a", "aac", "-b:a", "192k", "-pix_fmt", "yuv420p",
+            "-movflags", "+faststart",
+            str(final_video)
+        ]
+        subprocess.run(speed_cmd, capture_output=True, check=True)
+        if raw_stitched.exists():
+            raw_stitched.unlink()
 
     # 6. Cleanup temp files
     for seg_file in temp_dir.glob("norm_seg_*.mp4"):
@@ -212,7 +230,7 @@ def assemble_project(project_dir, output_name=None):
     print(f"\n========================================================")
     print(f"✅ MOVIE ASSEMBLY COMPLETE!")
     print(f"   Output File: {final_video}")
-    print(f"   Duration: {final_dur:.2f}s")
+    print(f"   Duration: {final_dur:.2f}s (Paced @ {speed:.2f}X)")
     print(f"   Size: {final_size_mb:.2f} MB")
     print(f"========================================================\n")
     return final_video
@@ -221,7 +239,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Assemble Universal Animation Movie")
     parser.add_argument("--project-dir", required=True, help="Path to project directory")
     parser.add_argument("--output-name", default=None, help="Optional output filename")
+    parser.add_argument("--speed", type=float, default=1.25, help="Playback speed multiplier (default: 1.25x)")
     args = parser.parse_args()
 
-    assemble_project(args.project_dir, args.output_name)
+    assemble_project(args.project_dir, args.output_name, args.speed)
 
