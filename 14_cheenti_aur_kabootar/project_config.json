@@ -1,0 +1,17 @@
+{
+    "project_name": "14_cheenti_aur_kabootar",
+    "title": "चींटी और कबूतर की सच्ची दोस्ती",
+    "created_at": "2026-11-19",
+    "channel": "Dream Byte",
+    "channel_handle": "@DreamByte-y3h",
+    "format": "YouTube Shorts",
+    "target_shots": 4,
+    "target_duration_sec": 30,
+    "aspect_ratio": "9:16",
+    "resolution": "1080x1920",
+    "fps": 30,
+    "speed_multiplier": 1.25,
+    "pipeline": "Option B (Meta AI to Google Flow I2V)",
+    "character_consistency_reference": "sample_images/shot_master_character.png",
+    "shot_durations": []
+}
