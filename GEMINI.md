@@ -29,6 +29,12 @@ All AI video generation tasks in this repository MUST strictly follow the codifi
    - The final 3–5 seconds MUST ask viewers a moral choice, dilemma, or question (e.g., "क्या आपने ऐसा दोस्त देखा है? कमेंट में बताओ!").
 9. **Rule #9: Optimal Shorts Duration (35–45s Target):**
    - YouTube Shorts must stay strictly within 35–45 seconds (5–6 shots × ~7s each) to guarantee >90% Average Percentage Viewed (APV) and trigger algorithm recommendation loops.
+10. **Rule #10: Exact-Match Image-to-Video (I2V) Pipeline:**
+   - Step 1: Generate scene keyframe images in Meta AI with detailed consistent character descriptions.
+   - Step 2: Upload Meta AI image into Google Flow / video generator as Starting Frame (Image-to-Video / I2V) to guarantee 100% character and visual consistency.
+   - Step 3: Use the Meta AI hero image/collage with bold typography for the final YouTube Thumbnail.
+11. **Rule #11: Mandatory 1.25X Pacing Law:**
+   - All final videos and voiceovers must be assembled with a 1.25X speed multiplier (`setpts=PTS/1.25` and `atempo=1.25`) so pacing remains energetic, snappy, and high-retention.
 
 ### When the User Provides a New Video Topic:
 1. Initialize the project: `python engine/init_project.py --name <slug> --title <title>`

@@ -132,6 +132,24 @@ F:\YouTube\
 
 ---
 
+### 🔴 RULE #10: EXACT-MATCH IMAGE-TO-VIDEO (I2V) PIPELINE
+* **Problem:** Text-to-Video in Google Flow creates different random characters that do not match the approved storyboard or thumbnail.
+* **The Law:**
+  1. **Step 1 (Meta AI Keyframes):** Use Meta AI (`https://www.meta.ai/`) for rapid, superior-quality character and scene images using consistent detailed prompt descriptions.
+  2. **Step 2 (Keyframe Coverage):** Generate one detailed keyframe image for every major scene/cut.
+  3. **Step 3 (True I2V Animation):** In Google Flow (or video tool), upload the Meta AI image as the starting frame / reference (Image-to-Video / I2V) so the generated video 100% matches the character's facial structure, clothing, and environment.
+  4. **Step 4 (High-CTR Thumbnail):** Use the highest-quality Meta AI hero image / collage with bold text overlays for the final YouTube Thumbnail.
+
+---
+
+### 🔴 RULE #11: MANDATORY 1.25X PACING & SPEED LAW
+* **Problem:** Normal AI speech and video motion feel sluggish on mobile Shorts feeds, resulting in swipe-aways.
+* **The Law:**
+  1. All final videos and voiceovers MUST be rendered with a **1.25X speed multiplier** (`setpts=PTS/1.25` and `atempo=1.25`).
+  2. Video pacing must remain snappy, high-tempo, and engaging from the very first frame to the ending comment question.
+
+---
+
 ## 🚀 NEW PROJECT WORKFLOW (WHEN USER GIVES A NEW TOPIC)
 
 When the user gives a new topic (e.g., *"Make a video on Haunted Old Haveli"*):
