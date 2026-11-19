@@ -222,12 +222,27 @@ def test_project(project_dir, pass_num=1):
     return report
 
 def main():
-    projects = [f"{i:02d}" for i in range(11, 21)]
+    import argparse
+    parser = argparse.ArgumentParser(description="Multi-Pass Video Production QA Suite")
+    parser.add_argument("--project-dir", default=None, help="Specific project directory to test")
+    parser.add_argument("--start", type=int, default=21, help="Start project index (default 21)")
+    parser.add_argument("--end", type=int, default=40, help="End project index (default 40)")
+    parser.add_argument("--passes", type=int, default=2, help="Number of test passes (default 2)")
+    args = parser.parse_args()
+
     matched_dirs = []
-    for p_num in projects:
-        matched = glob.glob(f"{p_num}_*")
-        if matched:
-            matched_dirs.append(matched[0])
+    if args.project_dir:
+        matched_dirs.append(args.project_dir)
+    else:
+        for i in range(args.start, args.end + 1):
+            p_num = f"{i:02d}"
+            matched = glob.glob(f"{p_num}_*")
+            if matched:
+                matched_dirs.append(matched[0])
+
+    if not matched_dirs:
+        print("No matching project directories found.")
+        return
 
     print("=" * 80)
     print("🧪 AUTOMATED MULTI-PASS VIDEO PRODUCTION & INTEGRITY TEST SUITE")
@@ -235,10 +250,9 @@ def main():
     print(f"   FFmpeg Engine: {FFMPEG_EXE}")
     print("=" * 80)
 
-    # Execute 3 consecutive full verification passes as requested by user
-    for pass_idx in range(1, 4):
+    for pass_idx in range(1, args.passes + 1):
         print(f"\n================================================================================")
-        print(f"▶️ EXECUTING TEST PASS {pass_idx} / 3...")
+        print(f"▶️ EXECUTING TEST PASS {pass_idx} / {args.passes}...")
         print(f"================================================================================")
         pass_failures = 0
         
@@ -266,7 +280,7 @@ def main():
             print(f"⚠️ PASS {pass_idx} RESULT: {pass_failures} projects had issues!")
 
     print("\n" + "=" * 80)
-    print("🏁 ALL 3 THOROUGH TEST PASSES SUCCESSFULLY COMPLETED!")
+    print(f"🏁 ALL {args.passes} THOROUGH TEST PASSES COMPLETED!")
     print("=" * 80)
 
 if __name__ == "__main__":

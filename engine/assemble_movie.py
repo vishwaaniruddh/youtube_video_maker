@@ -145,6 +145,12 @@ def assemble_project(project_dir, output_name=None, speed=1.25):
         seg_out = temp_dir / f"norm_seg_{idx+1:02d}.mp4"
         speed_factor = orig_dur / target_dur
         
+        # If segment already exists and is non-empty, reuse it
+        if seg_out.exists() and seg_out.stat().st_size > 100000:
+            concat_lines.append(f"file '{seg_out.as_posix()}'")
+            print(f"   [Reused Existing] Shot {idx+1:02d}: {seg_out.name} ({seg_out.stat().st_size / 1024 / 1024:.2f} MB)")
+            continue
+
         # Scaling filter ensuring crop never fails for horizontal or vertical
         if is_vertical:
             vf = (
@@ -164,7 +170,7 @@ def assemble_project(project_dir, output_name=None, speed=1.25):
             "-i", str(clip_path),
             "-vf", vf,
             "-t", f"{target_dur:.3f}",
-            "-c:v", "libx264", "-preset", "fast", "-crf", "18",
+            "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
             "-pix_fmt", "yuv420p", "-an",
             str(seg_out)
         ]
@@ -207,7 +213,8 @@ def assemble_project(project_dir, output_name=None, speed=1.25):
             "-i", str(raw_stitched),
             "-filter:v", f"setpts=PTS/{speed}",
             "-filter:a", f"atempo={speed}",
-            "-c:v", "libx264", "-c:a", "aac", "-b:a", "192k", "-pix_fmt", "yuv420p",
+            "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
+            "-c:a", "aac", "-b:a", "192k", "-pix_fmt", "yuv420p",
             "-movflags", "+faststart",
             str(final_video)
         ]
